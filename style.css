@@ -1,0 +1,179 @@
+body{
+
+    background-color:rgb(32, 83, 41);
+
+}
+
+header{
+
+    color:black;
+
+    margin-left:16cm;
+
+    margin-bottom: 1cm;
+
+}
+
+footer{
+
+     color:bisque;
+
+     padding-left:15cm;
+
+     margin-top:0.5cm;
+
+}
+
+#about{
+
+    color: aliceblue;
+
+    padding: 32px ;
+
+    margin-top: 0.5cm;
+
+}
+
+.quote{
+
+    color: rgb(113, 5, 5);
+
+    padding-left:10cm;
+
+}
+
+.gallery{
+
+    width: 400px;
+
+    height: 300px;
+
+    border-radius: 20%;
+
+    margin-left: 12cm;
+
+    margin-top: 0.12cm;
+
+}
+
+.gallery:hover{
+
+    transform:scale(1.05) ;
+
+}
+
+#contact{
+
+    color:rgb(177, 188, 159) ;
+
+    padding: 10px ;
+
+    margin-left: 14cm;
+
+    margin-top: 3cm;
+
+    margin-bottom: 5cm;
+
+    background-color: rgb(16, 58, 10);
+
+    width: 30%;
+
+    border:2px dashed rgb(2, 19, 2);
+
+}
+
+.discuss{
+
+    color:black ;
+
+    margin-left: 10cm;
+
+    margin-top:3cm ;
+
+    margin-bottom: 2cm;
+
+    margin-right:12cm ;
+
+    background-color: rgb(97, 69, 69);
+
+    padding-left:1cm ;
+
+    border-radius:32px;
+
+}
+
+.navigation {
+
+    display: flex;
+
+    gap: 12px; 
+
+    padding-left:2cm;
+
+}
+
+.nav{
+
+    display: inline-block;
+
+    color:black;
+
+    background-color:aquamarine; 
+
+    padding: 5px 16px; 
+
+    border-radius: 16px; 
+
+    transition: 200ms;
+
+     }
+
+.nav:hover {
+
+    background-color:green;
+
+    transform:scale(1.05);
+
+    box-shadow: 0 4px 16px white;
+
+}
+
+.top{
+
+    display: inline-block;
+
+    color:black;
+
+    background-color:rgb(34, 182, 212); 
+
+    padding: 5px 14px; 
+
+    border-radius: 16px; 
+
+    transition: 200ms;
+
+    margin-left:2cm;
+
+}
+
+.top:hover{
+
+     background-color:rgb(49, 227, 156);
+
+    transform:scale(1.05);
+
+    box-shadow: 0 4px 16px white;
+
+}
+
+.intro{
+
+    margin-left:6cm;
+
+}
+
+.myself{
+
+    margin-left: 14cm;
+
+}
